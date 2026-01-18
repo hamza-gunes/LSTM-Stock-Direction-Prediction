@@ -1,8 +1,10 @@
-# 📈 LSTM Stock Trend Forecaster
+# LSTM Stock Trend Forecaster (LSTM ile Hisse Fiyat Tahmini)
 
 A time-series forecasting tool designed to analyze stock market trends using Deep Learning. This project leverages Long Short-Term Memory (LSTM) networks to predict future stock prices based on historical data.
 
-## 🚀 Overview
+This project does not constitute investment advice !
+
+## Overview
 
 Financial markets are complex and volatile. This project aims to model the underlying patterns in stock price movements using a sequential neural network architecture. It fetches live data, processes it for time-series analysis, trains a predictive model, and generates actionable trading signals.
 
@@ -13,7 +15,7 @@ Financial markets are complex and volatile. This project aims to model the under
 * **Actionable Insights:** Provides a clear BUY/SELL/HOLD signal based on the predicted next-day close.
 * **Visualization:** Plots training history, validation data, and model predictions for performance assessment.
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 * **Language:** Python 3.x
 * **Deep Learning Framework:** Keras (TensorFlow Backend)
@@ -21,7 +23,7 @@ Financial markets are complex and volatile. This project aims to model the under
 * **Visualization:** Matplotlib
 * **Data Source:** yfinance
 
-## 📊 Methodology
+## Methodology
 
 1.  **Data Acquisition:** Fetches the last 2 years of daily closing prices.
 2.  **Feature Engineering:** * Data is normalized to the [0, 1] range for optimal LSTM convergence.
@@ -34,7 +36,7 @@ Financial markets are complex and volatile. This project aims to model the under
     * Optimizer: Adam | Loss Function: MSE
 4.  **Evaluation:** The model is evaluated using RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error) metrics on unseen test data.
 
-## 💻 Usage
+## Usage
 
 1.  Clone the repository:
     ```bash
