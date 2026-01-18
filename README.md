@@ -9,7 +9,7 @@ This project does not constitute investment advice !
 Financial markets are complex and volatile. This project aims to model the underlying patterns in stock price movements using a sequential neural network architecture. It fetches live data, processes it for time-series analysis, trains a predictive model, and generates actionable trading signals.
 
 ### Key Features
-* **Real-time Data Integration:** Automatically fetches historical data using Yahoo Finance API.
+* **Real-time Data Integration:** Automatically fetches historical data using Yahoo Finance.
 * **Sequential Modeling:** Utilizes a stacked LSTM architecture to capture temporal dependencies.
 * **Robust Preprocessing:** Implements MinMax scaling and sequence generation to prevent data leakage.
 * **Actionable Insights:** Provides a clear BUY/SELL/HOLD signal based on the predicted next-day close.
